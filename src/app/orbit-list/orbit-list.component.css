@@ -1,10 +1,10 @@
 .sortable {
     cursor: pointer;
-    color: #dd5;
+    color: rgb(230, 230, 24);
 }
 
 .warning {
-    background-color: #da8a8a;
+    background-color: #e02a2a;
 }
 
 table {
@@ -26,3 +26,6 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
+
+tr:nth-child(even) {background: rgb(195, 230, 241)}
+tr:nth-child(odd) {background: rgb(197, 191, 183)}

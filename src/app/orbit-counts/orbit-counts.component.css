@@ -1,0 +1,8 @@
+
+div {
+  width: 200px;
+  padding: 3px;
+}
+
+div:nth-child(even) {background: rgb(80, 140, 158)}
+div:nth-child(odd) {background: rgb(153, 187, 197)}
